@@ -2,7 +2,7 @@
 # The name of the queue you wan't to submit the job to
 #BSUB -q cpuqueue
 # The name of the job
-#BSUB -J RJob-weather
+#BSUB -J helloworld_job
 # The number of processors you want
 #BSUB -n 1
 # Sets memory requirements for the job
