@@ -19,4 +19,4 @@
 module purge
 
 # now the command we want to run
-echo "Hi $(whoami) I am a job running on $(hostname)"
+echo "Hi $(whoami) I am a job running on $(hostname)" > helloworld_output.txt
