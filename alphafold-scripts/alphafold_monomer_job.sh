@@ -21,7 +21,7 @@ module load cuda/11.7
 runaf-2.3.1 \
 -d /lila/data/shared_resources/alphafold-db \
 -o test-alphafold-monomer \
--f /lila/data/hpcadmin/home/cheongj1/alphafold/example/query.fasta \
+-f test_monomer.fasta \
 -t 2023-11-01 \
 -a 0,1,2,3 \
 -c full_dbs \
