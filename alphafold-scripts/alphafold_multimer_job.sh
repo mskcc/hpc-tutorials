@@ -30,7 +30,7 @@ export XLA_FLAGS=--xla_gpu_force_compilation_parallelism=1
 runaf-2.3.1 \
 -d /lila/data/shared_resources/alphafold-db \
 -o test-alphafold-multimer \
--f /lila/data/hpcadmin/home/cheongj1/alphafold/example/query_multimer.fasta \
+-f test_multimer.fasta \
 -t 2023-11-01 \
 -a 0,1,2,3 \
 -m multimer \
